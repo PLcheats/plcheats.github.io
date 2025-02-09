@@ -174,3 +174,10 @@ input {
 ::-webkit-scrollbar {
   width: 0;
 }
+#informations {
+  position: absolute;
+  left: 41%;
+  display: none;
+  font-size: 1.5em;
+  top: 60%;
+}

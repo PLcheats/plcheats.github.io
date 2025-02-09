@@ -249,8 +249,15 @@ const skipIntro = () => {
             });
         }, 200);
     });
+    document.getElementById("informations").style.display = "block"
 };
 
 const clearCursor = () => {
     return $('span').siblings('.typed-cursor').css('opacity', '0');
 };
+function showinfo() {
+    setTimeout(() => {
+        document.getElementById("informations").style.display = "block"
+      }, 17500);
+      
+}
