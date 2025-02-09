@@ -122,7 +122,7 @@ setInterval(() => {
 
 $('.skip').click(() => {
     skipIntro();
-    document.getElementById("informations").style.display = "block"
+    document.getElementById("informations").style.display = "flex"
 });
 
 $.fn.extend({
@@ -257,7 +257,7 @@ const clearCursor = () => {
 };
 function showinfo() {
     setTimeout(() => {
-        document.getElementById("informations").style.display = "block"
+        document.getElementById("informations").style.display = "flex"
       }, 17500);
       
 }

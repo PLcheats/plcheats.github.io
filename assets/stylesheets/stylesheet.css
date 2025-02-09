@@ -175,9 +175,14 @@ input {
   width: 0;
 }
 #informations {
-  position: absolute;
-  left: 41%;
   display: none;
-  font-size: 1.5em;
-  top: 60%;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  position: absolute;
+  top: calc(50% + 60px);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  gap: 20px;
 }
