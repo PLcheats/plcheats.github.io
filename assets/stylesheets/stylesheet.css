@@ -186,3 +186,8 @@ input {
   text-align: center;
   gap: 20px;
 }
+#informations a {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px; /* Odstęp między linkami */
+}
