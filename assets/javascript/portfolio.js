@@ -122,6 +122,7 @@ setInterval(() => {
 
 $('.skip').click(() => {
     skipIntro();
+    document.getElementById("informations").style.display = "block"
 });
 
 $.fn.extend({
@@ -249,7 +250,6 @@ const skipIntro = () => {
             });
         }, 200);
     });
-    document.getElementById("informations").style.display = "block"
 };
 
 const clearCursor = () => {
